@@ -10,4 +10,4 @@
 | Ariany Sarai Estrada Zermeño | TS | arianyestrada321@aragon.unam.mx |
 | Hector Antonio Gonzalez Galero | TS | hectorgalero63@aragon.unam.mx|
 | Pedro Gael Benito Ruiz | TS | gaelruiz61@aragon.unam.mx |
-| Luis Daniel Martinez Hernandez | TS | `[Falta correo]` |
+| Luis Daniel Martinez Hernandez | TS | `[Falta correo y cuenta de github]` |
