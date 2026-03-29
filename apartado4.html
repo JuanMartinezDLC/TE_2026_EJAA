@@ -11,37 +11,46 @@
 
 <body>
      <!-- Encabezado-->
-    <header>        
-        <div>
-            <!-- El menu sera estilo hamburguesa, por lo mientras es asi, para que se vea bonito -->
-            <details>
-                <summary>Menu</summary>
+    <header class="header">
+    
+    <!-- BOTÓN HAMBURGUESA -->
+        <div class="menu">
+            <button id="menu-btn" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav id="menu-panel" class="menu-panel">
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="../apartado1.html">Teoría Básica IS</a></li>
-                    <li><a href="../apartado2.html">Patrones de diseño</a></li>
+                    <li><a href="../apartado2.html">Patrones</a></li>
                     <li><a href="../apartado3.html">Scrum</a></li>
                     <li><a href="../apartado4.html">Desarrolladores</a></li>
                 </ul>
-            </details>
+            </nav>
         </div>
-    
-    <div>
-        <h1>Desarrolladores</h1>
-        <img src="imagen.jpg" alt="Logo" class="favicon">
-    </div>
+
+        <div class="header-right">
+            <h1>Desarrolladores</h1>
+            <img src="../src/image/logo.png" class="logo">
+        </div>
     </header>
 
-    <!-- Se aplicara un estilo de diseño para cada perfil, por lo mientras esta asi -->
+    <!-- Diseño establecio, si le quieren cambiar algo me avisan plis -->
     <section class="desarrolladores">
           <h1>Desarrolladores del quipo EJAAPH</h1>
           <p>Los desarrolladores que forman parte del equipo EJAAPH</p>
+
           <div class="grid-equipo">
 
             <div class="desarrollador">
                 <div class="team-img-wrapper">
-                    <div class="team-avatar">
-                        <img src="../img/ernesto.jpeg" alt="Ernesto">
+                    <div class="team-img-wrapper">
+                        <div class="team-avatar">
+                            <img src="../img/ernesto.jpeg" alt="Ernesto">
+                        </div>
                     </div>
                 </div>
                 <div class="team-info">
@@ -49,7 +58,7 @@
                         <h4 class="team-role">Product Owner</h4>
                         <p>Responsable de maximizar el valor del producto y gestionar el Product Backlog. Es la voz del cliente.</p>
                         <div class="perfil-link">
-                            <a href="apartado4/ernesto.html" class="social-btn" target="_blank" rel="noopener noreferrer">Perfil</a>
+                            <a href="apartado4/ernesto.html" class="perfil-btn">Perfil</a>
                         </div>
                 </div>
             </div>
@@ -65,7 +74,7 @@
                         <h4 class="team-role">Scrum Master</h4>
                         <p>Líder facilitador que asegura que Scrum se entienda y aplique, elimina impedimentos y ayuda al equipo a mantener el enfoque.</p>
                         <div class="perfil-link">
-                            <a href="apartado4/juan.html" class="social-btn" target="_blank" rel="noopener noreferrer">Perfil</a>
+                            <a href="apartado4/juan.html" class="perfil-btn">Perfil</a>
                         </div>
                 </div>
             </div>
@@ -81,7 +90,7 @@
                         <h4 class="team-role">Team Scrum</h4>
                         <p> Profesional multifuncionales que crea el incremento de producto "terminado" cada Sprint.</p>
                         <div class="perfil-link">
-                            <a href="apartado4/ariany.html" class="social-btn" target="_blank" rel="noopener noreferrer">Perfil</a>
+                            <a href="apartado4/ariany.html" class="perfil-btn">Perfil</a>
                         </div>
                 </div>
             </div>
@@ -89,7 +98,7 @@
             <div class="desarrollador">
                 <div class="team-img-wrapper">
                     <div class="team-avatar">
-                        <img src="../img/alejandra.jpeg" alt="Alejandra">
+                        <img src="src/image/alejandra.jpeg" alt="Alejandra">
                     </div>
                 </div>
                 <div class="team-info">
@@ -97,7 +106,7 @@
                         <h4 class="team-role">Team Scrum</h4>
                         <p> Profesional multifuncionales que crea el incremento de producto "terminado" cada Sprint.</p>
                         <div class="perfil-link">
-                            <a href="apartado4/alejandra.html" class="social-btn" target="_blank" rel="noopener noreferrer">Perfil</a>
+                            <a href="apartado4/alejandra.html" class="perfil-btn">Perfil</a>
                         </div>
                 </div>
             </div>
@@ -105,7 +114,7 @@
             <div class="desarrollador">
                 <div class="team-img-wrapper">
                     <div class="team-avatar">
-                        <img src="../img/pedro.jpeg" alt="Pedro">
+                        <img src="../image/pedro.jpeg" alt="Pedro">
                     </div>
                 </div>
                 <div class="team-info">
@@ -113,7 +122,7 @@
                         <h4 class="team-role">Team Scrum</h4>
                         <p> Profesional multifuncionales que crea el incremento de producto "terminado" cada Sprint.</p>
                         <div class="perfil-link">
-                            <a href="apartado4/pedro.html" class="social-btn" target="_blank" rel="noopener noreferrer">Perfil</a>
+                            <a href="apartado4/pedro.html" class="perfil-btn">Perfil</a>
                         </div>
                 </div>
             </div>
@@ -121,7 +130,7 @@
             <div class="desarrollador">
                 <div class="team-img-wrapper">
                     <div class="team-avatar">
-                        <img src="../img/hector.jpeg" alt="Hector">
+                        <img src="src/image/hector.jpeg" alt="Hector">
                     </div>
                 </div>
                 <div class="team-info">
@@ -129,7 +138,7 @@
                         <h4 class="team-role">Team Scrum</h4>
                         <p> Profesional multifuncionales que crea el incremento de producto "terminado" cada Sprint.</p>
                         <div class="perfil-link">
-                            <a href="apartado4/hector.html" class="social-btn" target="_blank" rel="noopener noreferrer">Perfil</a>
+                            <a href="apartado4/hector.html" class="perfil-btn">Perfil</a>
                         </div>
                 </div>
             </div>
@@ -141,4 +150,24 @@
         <p>Proyecto Scrum</p>
     </footer>
 
+    <!-- Parte de script-->
+    <script>
+        const btn = document.getElementById("menu-btn");
+        const panel = document.getElementById("menu-panel");
+
+        btn.addEventListener("click", () => {
+            btn.classList.toggle("active");
+            panel.classList.toggle("active");
+        });
+
+        /* Cerrar al hacer clic fuera */
+        document.addEventListener("click", (e) => {
+            if (!btn.contains(e.target) && !panel.contains(e.target)) {
+                btn.classList.remove("active");
+                panel.classList.remove("active");
+            }
+        });
+    </script>
+
 </body>
+</html>
